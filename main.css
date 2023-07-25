@@ -8,7 +8,7 @@ small { font-size: .8409em; }
 */
 
 body {
-	max-width: 1024px;
+	max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,6 +18,30 @@ h1 {
 	font-size: 4em;
 }
 
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.6818em;
+}
+
 p {
 	font-family: 'Quicksand', sans-serif;
+	font-size: 1.1892em;
+}
+
+.button-link {
+	padding: 16px 32px;
+	border: 2px solid #000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.1892em;
+	color: black;
+}
+
+.button-link:hover {
+	color: white;
+	background-color: black;
+}
+
+.button-div {
+	margin-top: 1.83em;
+	margin-bottom: 2.83em;
 }
