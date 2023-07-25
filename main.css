@@ -7,6 +7,12 @@ p { font-size: 1em; }
 small { font-size: .8409em; }
 */
 
+body {
+	max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 4em;
