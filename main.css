@@ -1,0 +1,17 @@
+/*
+h1 { font-size: 2em; }
+h2 { font-size: 1.6818em; }
+h3 { font-size: 1.4142em; }
+h4 { font-size: 1.1892em; }
+p { font-size: 1em; }
+small { font-size: .8409em; }
+*/
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 4em;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
