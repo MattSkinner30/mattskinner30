@@ -85,7 +85,6 @@ li {
 }
 
 .menu li:hover {
-  transition: 0.3s ease;
   text-decoration: underline;
 }
 
@@ -130,7 +129,7 @@ li {
 
 
 .main-title {
-	margin-top: 25%;
+	margin-top: 15%;
 }
 
 .bold {
