@@ -16,6 +16,8 @@ body {
 	max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -46,6 +48,31 @@ img {
 li {
 	list-style: none;
 }
+
+footer {
+	background-color: black;
+	height: 150px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	margin-top: 100px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .logo a {
 	text-decoration: none;
@@ -174,12 +201,58 @@ li {
 
 
 
+footer .three-column-container {
+	width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+footer div div {
+	padding-top: 45px;
+}
 
+.footer-links {
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	color: white;
+	padding-top: 45px;
+}
 
+.footer-links:hover {
+	text-decoration: underline;
+}
 
+.copyright {
+	font-weight: 700;
+}
 
+form {
+  background-color: #222222;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+input {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  color: white;
+}
 
 
 
